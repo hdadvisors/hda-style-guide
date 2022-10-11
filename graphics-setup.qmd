@@ -1,0 +1,20 @@
+---
+title: "Setup"
+---
+
+The pages in this section show you how to create, design, and publish graphics that use brands managed by HDA. For now, this guide is only for production in RStudio using the suite of `tidyverse` packages (including `ggplot2`) and custom theming functions created to expedite consistent brand features.
+
+## Getting started
+
+- R and RStudio
+
+## Load libraries
+
+- tidyverse
+- ggplot2
+- scales
+- etc
+
+## How to use
+
+...

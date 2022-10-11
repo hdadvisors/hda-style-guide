@@ -1,0 +1,17 @@
+---
+title: "HDA Colors"
+---
+
+```{r}
+
+library(scales)
+library(chroma)
+
+pal <- c("#445ca9",
+         "#8baeaa",
+         "#e9ab3f",
+         "#e76f52")
+
+scales::show_col(pal, borders = "#ffffff", ncol = 4)
+
+```

@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+
+  title: "HDA Style Guide"
+
+  sidebar:
+    title: "HDA Style Guide"
+    logo: "img/hda-logo-color.png"
+    style: docked
+    search: true
+    contents:
+      - about.qmd
+      - section: "Logos"
+        contents:
+          - logos-hda.qmd
+          - logos-hfv.qmd
+      - section: "Typography"
+        contents:
+          - fonts-hda.qmd
+          - fonts-hfv.qmd
+      - section: "Colors"
+        contents:
+          - colors-hda.qmd
+          - colors-hfv.qmd
+      - section: "Graphics"
+        contents: 
+          - graphics-setup.qmd
+          - graphics-inspiration.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

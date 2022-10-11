@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This will be the landing page."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "This will be the landing page."
+  },
+  {
+    "objectID": "charts-setup.html",
+    "href": "charts-setup.html",
+    "title": "Setup",
+    "section": "",
+    "text": "The pages in this section show you how to create, design, and publish graphics that use brands managed by HDA. For now, this guide is only for production in RStudio using the suite of tidyverse packages (including ggplot2) and custom theming functions created to expedite consistent brand features."
+  },
+  {
+    "objectID": "charts-setup.html#load-libraries",
+    "href": "charts-setup.html#load-libraries",
+    "title": "Setup",
+    "section": "Load libraries",
+    "text": "Load libraries\n\ntidyverse\nggplot2\nscales\netc"
+  },
+  {
+    "objectID": "charts-setup.html#how-to-use",
+    "href": "charts-setup.html#how-to-use",
+    "title": "Setup",
+    "section": "How to use",
+    "text": "How to use\n…"
+  },
+  {
+    "objectID": "charts-setup.html#getting-started",
+    "href": "charts-setup.html#getting-started",
+    "title": "Setup",
+    "section": "Getting started",
+    "text": "Getting started\n\nR and RStudio"
+  },
+  {
+    "objectID": "graphics-inspiration.html#helpful-guides",
+    "href": "graphics-inspiration.html#helpful-guides",
+    "title": "Inspiration",
+    "section": "Helpful guides",
+    "text": "Helpful guides\n\nTheme building\nCreating and using custom ggplot2 themes\nThomas Mock\n\n\nPackage building\nWhat we learned from creating a custom graphics package in R using ggplot2\nPew Research Center\n\n\nColor scales\nCustom Discrete Color Scales for ggplot2\nGarrick Aden-Buie\nCustom colour palettes for {ggplot2}\nNicola Rennie\n\n\nColor palette generators\nhttps://www.learnui.design/tools/data-color-picker.html\nhttps://projects.susielu.com/viz-palette"
+  },
+  {
+    "objectID": "graphics-setup.html",
+    "href": "graphics-setup.html",
+    "title": "Setup",
+    "section": "",
+    "text": "The pages in this section show you how to create, design, and publish graphics that use brands managed by HDA. For now, this guide is only for production in RStudio using the suite of tidyverse packages (including ggplot2) and custom theming functions created to expedite consistent brand features."
+  },
+  {
+    "objectID": "graphics-setup.html#getting-started",
+    "href": "graphics-setup.html#getting-started",
+    "title": "Setup",
+    "section": "Getting started",
+    "text": "Getting started\n\nR and RStudio"
+  },
+  {
+    "objectID": "graphics-setup.html#load-libraries",
+    "href": "graphics-setup.html#load-libraries",
+    "title": "Setup",
+    "section": "Load libraries",
+    "text": "Load libraries\n\ntidyverse\nggplot2\nscales\netc"
+  },
+  {
+    "objectID": "graphics-setup.html#how-to-use",
+    "href": "graphics-setup.html#how-to-use",
+    "title": "Setup",
+    "section": "How to use",
+    "text": "How to use\n…"
+  },
+  {
+    "objectID": "graphics-inspiration.html",
+    "href": "graphics-inspiration.html",
+    "title": "Inspiration",
+    "section": "",
+    "text": "Urban Institute Graphics Guide\n\nCustom-built urbnthemes package\nGuide for each kind of graphic\nFollows their graphic style guide\nFunctions address saving/output options\n\nBBC Visual and Data Journalism cookbook for R graphics\n\nCustom-built bbplot package\nGuide for each kind of graphic\nFunctions address saving/output options"
+  },
+  {
+    "objectID": "graphics-inspiration.html#style",
+    "href": "graphics-inspiration.html#style",
+    "title": "Inspiration",
+    "section": "Style",
+    "text": "Style\nThe Urban Institute\nhttps://urbaninstitute.github.io/graphics-styleguide/ https://urbaninstitute.github.io/graphics-styleguide/img/chart-parts-02.png"
+  },
+  {
+    "objectID": "colors-hfv.html",
+    "href": "colors-hfv.html",
+    "title": "HFV Colors",
+    "section": "",
+    "text": "library(scales)\n\nWarning: package 'scales' was built under R version 4.2.1\n\nlibrary(chroma)\n\n\nAttaching package: 'chroma'\n\n\nThe following objects are masked from 'package:scales':\n\n    alpha, show_col\n\n\nThe following objects are masked from 'package:grDevices':\n\n    hcl, hsv, rgb\n\nhfv_pal <- c(\n  \"#011e41\", # Shadow\n  \"#40c0c0\", # Sky\n  \"#8b85ca\", # Lilac\n  \"#259591\", # Grass\n  \"#b1005f\", # Berry\n  \"#e0592a\"  # Desert\n  )\n\nscales::show_col(hfv_pal, borders = \"#ffffff\", cex_label = 0.8, ncol = 3)\n\n\n\n\n\nchroma::show_col(interp_colors(12, colors = c(\"#ccd2d9\", \"#011e41\"), interp = \"bezier\"))"
+  },
+  {
+    "objectID": "colors-hda.html",
+    "href": "colors-hda.html",
+    "title": "HDA Colors",
+    "section": "",
+    "text": "library(scales)\n\nWarning: package 'scales' was built under R version 4.2.1\n\nlibrary(chroma)\n\n\nAttaching package: 'chroma'\n\n\nThe following objects are masked from 'package:scales':\n\n    alpha, show_col\n\n\nThe following objects are masked from 'package:grDevices':\n\n    hcl, hsv, rgb\n\npal <- c(\"#445ca9\",\n         \"#8baeaa\",\n         \"#e9ab3f\",\n         \"#e76f52\")\n\nscales::show_col(pal, borders = \"#ffffff\", ncol = 4)"
+  }
+]

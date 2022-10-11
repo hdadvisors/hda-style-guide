@@ -1,0 +1,54 @@
+---
+title: "Inspiration"
+---
+
+## Examples
+
+### Complete packages
+
+[Urban Institute Graphics Guide](https://urbaninstitute.github.io/r-at-urban/graphics-guide.html)
+
+- Custom-built `urbnthemes` [package](https://github.com/UrbanInstitute/urbnthemes)
+- [Guide](https://urbaninstitute.github.io/r-at-urban/graphics-guide.html) for each kind of graphic
+- Follows their [graphic style guide](https://urbaninstitute.github.io/graphics-styleguide/)
+- Functions address saving/output options
+
+[BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
+
+- Custom-built `bbplot` [package](https://github.com/bbc/bbplot)
+- Guide for each kind of graphic
+- Functions address saving/output options
+
+## Helpful guides
+
+### Theme building
+
+[Creating and using custom ggplot2 themes](https://themockup.blog/posts/2020-12-26-creating-and-using-custom-ggplot2-themes/)  
+*Thomas Mock*
+
+### Package building
+
+[What we learned from creating a custom graphics package in R using ggplot2](https://medium.com/pew-research-center-decoded/creating-a-custom-graphics-package-in-r-using-ggplot2-3b0f7e8a32af)  
+*Pew Research Center*
+
+### Color scales
+
+[Custom Discrete Color Scales for ggplot2](https://www.garrickadenbuie.com/blog/custom-discrete-color-scales-for-ggplot2/)  
+*Garrick Aden-Buie*
+
+[Custom colour palettes for {ggplot2}](https://www.jumpingrivers.com/blog/custom-colour-palettes-for-ggplot2/)  
+*Nicola Rennie*
+
+### Color palette generators
+
+https://www.learnui.design/tools/data-color-picker.html
+
+https://projects.susielu.com/viz-palette
+
+## Style
+
+The Urban Institute
+
+https://urbaninstitute.github.io/graphics-styleguide/
+https://urbaninstitute.github.io/graphics-styleguide/img/chart-parts-02.png
+

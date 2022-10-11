@@ -1,0 +1,33 @@
+---
+title: "HFV Colors"
+---
+
+HousingForward Virginia uses a six-color palette.
+
+```{r}
+
+library(scales)
+library(chroma)
+
+hfv_pal <- c(
+  "#011e41", # Shadow
+  "#40c0c0", # Sky
+  "#8b85ca", # Lilac
+  "#259591", # Grass
+  "#b1005f", # Berry
+  "#e0592a"  # Desert
+  )
+
+scales::show_col(hfv_pal, borders = "#ffffff", cex_label = 0.8, ncol = 3)
+
+```
+
+```{r}
+
+
+chroma::show_col(interp_colors(12, colors = c("#ccd2d9", "#011e41"), interp = "bezier"))
+
+
+```
+
+

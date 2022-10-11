@@ -34,6 +34,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
+    
+execute: 
+  warning: false
+  freeze: auto

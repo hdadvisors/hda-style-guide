@@ -189,7 +189,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#examples" id="toc-examples" class="nav-link active" data-scroll-target="#examples">Examples</a>
+  <li><a href="#ideal-requirements" id="toc-ideal-requirements" class="nav-link active" data-scroll-target="#ideal-requirements">Ideal requirements</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a>
   <ul class="collapse">
   <li><a href="#complete-packages" id="toc-complete-packages" class="nav-link" data-scroll-target="#complete-packages">Complete packages</a></li>
   </ul></li>
@@ -223,6 +224,83 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="ideal-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="ideal-requirements">Ideal requirements</h2>
+<p>A custom solution for HDA’s graphic production needs should preferably include the following:</p>
+<ul>
+<li>Ability to manage and use at least two brand palettes for data visualization
+<ul>
+<li><a href="./colors-hda.html">HDA palette</a></li>
+<li><a href="./colors-hfv.html">HFV palette</a></li>
+</ul></li>
+<li>Pre-made color scales
+<ul>
+<li>Categorical (up to 6 variables)</li>
+<li>Sequential (several color options)</li>
+<li>Diverging (at least 2 options)</li>
+</ul></li>
+<li>Standard chart layout(s) using pre-defined <code>theme()</code> options in <code>ggplot2</code>
+<ul>
+<li>Label formatting (title, subtitle, axes, caption)</li>
+<li>Layout formatting (axis lines, axis labels, gridlines, ticks, legends, etc.)</li>
+</ul></li>
+<li>Ability to load and use custom fonts via Google Fonts
+<ul>
+<li><a href="./fonts-hda.html">HDA fonts</a></li>
+<li><a href="./fonts-hfv.html">HFV fonts</a></li>
+</ul></li>
+<li>Pre-assigned variable colors (example variable lists below)</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Race/ethnicity</th>
+<th>Tenure</th>
+<th>Housing type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>White, non-Hispanic</td>
+<td>Homeowner</td>
+<td>Single-family</td>
+</tr>
+<tr class="even">
+<td>Black</td>
+<td>Renter</td>
+<td>Duplex</td>
+</tr>
+<tr class="odd">
+<td>Hispanic or Latino</td>
+<td></td>
+<td>3-4 units</td>
+</tr>
+<tr class="even">
+<td>Asian</td>
+<td></td>
+<td>5 or more units</td>
+</tr>
+<tr class="odd">
+<td>Multiracial</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Another race</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Standard export settings that produce legible graphics for Quarto/RMarkdown outputs
+<ul>
+<li>HTML (book and website options)</li>
+<li>HTML (<code>revealjs</code> presentations)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+<li>PDF (whichever PDF render engine is best)</li>
+</ul></li>
+</ul>
+</section>
 <section id="examples" class="level2">
 <h2 class="anchored" data-anchor-id="examples">Examples</h2>
 <section id="complete-packages" class="level3">
@@ -263,19 +341,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="color-palette-generators" class="level3">
 <h3 class="anchored" data-anchor-id="color-palette-generators">Color palette generators</h3>
-<p>https://www.learnui.design/tools/data-color-picker.html</p>
-<p>https://projects.susielu.com/viz-palette</p>
+<p><a href="https://projects.susielu.com/viz-palette">Viz Palette</a><br>
+<em>Elijah Meeks &amp; Susie Lu</em></p>
+<p><a href="https://www.learnui.design/tools/data-color-picker.html">Data Color Picker</a><br>
+<em>Learn UI Design</em></p>
 </section>
 </section>
 <section id="style" class="level2">
 <h2 class="anchored" data-anchor-id="style">Style</h2>
-<p>The Urban Institute</p>
-<p>https://urbaninstitute.github.io/graphics-styleguide/ https://urbaninstitute.github.io/graphics-styleguide/img/chart-parts-02.png</p>
+<p>The Urban Institute “chart parts” is the best starting point to build HDA’s own chart setup.</p>
+<p><img src="https://urbaninstitute.github.io/graphics-styleguide/img/chart-parts-02.png" class="img-fluid"></p>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Because these HTML slides are rendered/displayed at a higher resolution (full screen) than the HTML book and website options, the default base size for text and other elements can be too small to read when presenting on a projection screen in-person.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

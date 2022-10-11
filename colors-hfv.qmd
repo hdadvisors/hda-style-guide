@@ -2,6 +2,8 @@
 title: "HFV Colors"
 ---
 
+## Primary palette
+
 HousingForward Virginia uses a six-color palette.
 
 ```{r}
@@ -18,16 +20,24 @@ hfv_pal <- c(
   "#e0592a"  # Desert
   )
 
-scales::show_col(hfv_pal, borders = "#ffffff", cex_label = 0.8, ncol = 3)
+scales::show_col(hfv_pal, borders = "#ffffff", cex_label = 0.8)
 
 ```
+
+## Categorical
+
+...
+
+## Sequential
+
+Single-color sequential gradient using Shadow (`#011e41`).
 
 ```{r}
 
-
 chroma::show_col(interp_colors(12, colors = c("#ccd2d9", "#011e41"), interp = "bezier"))
-
 
 ```
 
+## Diverging
 
+...

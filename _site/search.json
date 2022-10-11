@@ -7,46 +7,130 @@
     "text": "This will be the landing page."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
+    "objectID": "colors-hda.html",
+    "href": "colors-hda.html",
+    "title": "HDA Colors",
     "section": "",
-    "text": "This will be the landing page."
+    "text": "HDAdvisors uses a four-color palette.\n\nlibrary(scales)\nlibrary(chroma)\n\npal <- c(\n  \"#445ca9\", # Blue\n  \"#8baeaa\", # Green\n  \"#e9ab3f\", # Yellow\n  \"#e76f52\"  # Coral\n  )\n\nscales::show_col(pal, borders = \"#ffffff\")\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWe’ve asked our marketing consultant to provide two additional colors for this palette. This would allow for categorical color schemes for data with more than four variables."
   },
   {
-    "objectID": "charts-setup.html",
-    "href": "charts-setup.html",
-    "title": "Setup",
+    "objectID": "colors-hda.html#categorical",
+    "href": "colors-hda.html#categorical",
+    "title": "HDA Colors",
+    "section": "Categorical",
+    "text": "Categorical\n…"
+  },
+  {
+    "objectID": "colors-hda.html#sequential",
+    "href": "colors-hda.html#sequential",
+    "title": "HDA Colors",
+    "section": "Sequential",
+    "text": "Sequential\n…"
+  },
+  {
+    "objectID": "colors-hda.html#diverging",
+    "href": "colors-hda.html#diverging",
+    "title": "HDA Colors",
+    "section": "Diverging",
+    "text": "Diverging\n…"
+  },
+  {
+    "objectID": "colors-hfv.html",
+    "href": "colors-hfv.html",
+    "title": "HFV Colors",
     "section": "",
-    "text": "The pages in this section show you how to create, design, and publish graphics that use brands managed by HDA. For now, this guide is only for production in RStudio using the suite of tidyverse packages (including ggplot2) and custom theming functions created to expedite consistent brand features."
+    "text": "HousingForward Virginia uses a six-color palette.\n\nlibrary(scales)\nlibrary(chroma)\n\nhfv_pal <- c(\n  \"#011e41\", # Shadow\n  \"#40c0c0\", # Sky\n  \"#8b85ca\", # Lilac\n  \"#259591\", # Grass\n  \"#b1005f\", # Berry\n  \"#e0592a\"  # Desert\n  )\n\nscales::show_col(hfv_pal, borders = \"#ffffff\", cex_label = 0.8)"
   },
   {
-    "objectID": "charts-setup.html#load-libraries",
-    "href": "charts-setup.html#load-libraries",
-    "title": "Setup",
-    "section": "Load libraries",
-    "text": "Load libraries\n\ntidyverse\nggplot2\nscales\netc"
+    "objectID": "colors-hfv.html#categorical",
+    "href": "colors-hfv.html#categorical",
+    "title": "HFV Colors",
+    "section": "Categorical",
+    "text": "Categorical\n…"
   },
   {
-    "objectID": "charts-setup.html#how-to-use",
-    "href": "charts-setup.html#how-to-use",
-    "title": "Setup",
-    "section": "How to use",
-    "text": "How to use\n…"
+    "objectID": "colors-hfv.html#sequential",
+    "href": "colors-hfv.html#sequential",
+    "title": "HFV Colors",
+    "section": "Sequential",
+    "text": "Sequential\nSingle-color sequential gradient using Shadow (#011e41).\n\nchroma::show_col(interp_colors(12, colors = c(\"#ccd2d9\", \"#011e41\"), interp = \"bezier\"))"
   },
   {
-    "objectID": "charts-setup.html#getting-started",
-    "href": "charts-setup.html#getting-started",
-    "title": "Setup",
-    "section": "Getting started",
-    "text": "Getting started\n\nR and RStudio"
+    "objectID": "colors-hfv.html#diverging",
+    "href": "colors-hfv.html#diverging",
+    "title": "HFV Colors",
+    "section": "Diverging",
+    "text": "Diverging\n…"
+  },
+  {
+    "objectID": "fonts-hda.html",
+    "href": "fonts-hda.html",
+    "title": "HDA Fonts",
+    "section": "",
+    "text": "HDAdvisors uses two fonts: Roboto Slab and Lato Regular. Both are available through Google Fonts."
+  },
+  {
+    "objectID": "fonts-hda.html#headings",
+    "href": "fonts-hda.html#headings",
+    "title": "HDA Fonts",
+    "section": "Headings",
+    "text": "Headings\nFor all headings and subheadings:\nRoboto Slab"
+  },
+  {
+    "objectID": "fonts-hda.html#body",
+    "href": "fonts-hda.html#body",
+    "title": "HDA Fonts",
+    "section": "Body",
+    "text": "Body\nFor body text and all other uses:\nLato Regular"
+  },
+  {
+    "objectID": "fonts-hfv.html",
+    "href": "fonts-hfv.html",
+    "title": "HFV Fonts",
+    "section": "",
+    "text": "HousingForward Virginia uses two fonts: Poppins SemiBold and Open Sans Regular. Both are available through Google Fonts."
+  },
+  {
+    "objectID": "fonts-hfv.html#headings",
+    "href": "fonts-hfv.html#headings",
+    "title": "HFV Fonts",
+    "section": "Headings",
+    "text": "Headings\nFor all headings and subheadings:\nPoppins SemiBold"
+  },
+  {
+    "objectID": "fonts-hfv.html#body",
+    "href": "fonts-hfv.html#body",
+    "title": "HFV Fonts",
+    "section": "Body",
+    "text": "Body\nFor body text and all other uses:\nOpen Sans Regular"
+  },
+  {
+    "objectID": "graphics-inspiration.html",
+    "href": "graphics-inspiration.html",
+    "title": "Inspiration",
+    "section": "",
+    "text": "A custom solution for HDA’s graphic production needs should preferably include the following:\n\nAbility to manage and use at least two brand palettes for data visualization\n\nHDA palette\nHFV palette\n\nPre-made color scales\n\nCategorical (up to 6 variables)\nSequential (several color options)\nDiverging (at least 2 options)\n\nStandard chart layout(s) using pre-defined theme() options in ggplot2\n\nLabel formatting (title, subtitle, axes, caption)\nLayout formatting (axis lines, axis labels, gridlines, ticks, legends, etc.)\n\nAbility to load and use custom fonts via Google Fonts\n\nHDA fonts\nHFV fonts\n\nPre-assigned variable colors (example variable lists below)\n\n\n\n\nRace/ethnicity\nTenure\nHousing type\n\n\n\n\nWhite, non-Hispanic\nHomeowner\nSingle-family\n\n\nBlack\nRenter\nDuplex\n\n\nHispanic or Latino\n\n3-4 units\n\n\nAsian\n\n5 or more units\n\n\nMultiracial\n\n\n\n\nAnother race\n\n\n\n\n\n\nStandard export settings that produce legible graphics for Quarto/RMarkdown outputs\n\nHTML (book and website options)\nHTML (revealjs presentations)1\nPDF (whichever PDF render engine is best)"
+  },
+  {
+    "objectID": "graphics-inspiration.html#examples",
+    "href": "graphics-inspiration.html#examples",
+    "title": "Inspiration",
+    "section": "Examples",
+    "text": "Examples\n\nComplete packages\nUrban Institute Graphics Guide\n\nCustom-built urbnthemes package\nGuide for each kind of graphic\nFollows their graphic style guide\nFunctions address saving/output options\n\nBBC Visual and Data Journalism cookbook for R graphics\n\nCustom-built bbplot package\nGuide for each kind of graphic\nFunctions address saving/output options"
   },
   {
     "objectID": "graphics-inspiration.html#helpful-guides",
     "href": "graphics-inspiration.html#helpful-guides",
     "title": "Inspiration",
     "section": "Helpful guides",
-    "text": "Helpful guides\n\nTheme building\nCreating and using custom ggplot2 themes\nThomas Mock\n\n\nPackage building\nWhat we learned from creating a custom graphics package in R using ggplot2\nPew Research Center\n\n\nColor scales\nCustom Discrete Color Scales for ggplot2\nGarrick Aden-Buie\nCustom colour palettes for {ggplot2}\nNicola Rennie\n\n\nColor palette generators\nhttps://www.learnui.design/tools/data-color-picker.html\nhttps://projects.susielu.com/viz-palette"
+    "text": "Helpful guides\n\nTheme building\nCreating and using custom ggplot2 themes\nThomas Mock\n\n\nPackage building\nWhat we learned from creating a custom graphics package in R using ggplot2\nPew Research Center\n\n\nColor scales\nCustom Discrete Color Scales for ggplot2\nGarrick Aden-Buie\nCustom colour palettes for {ggplot2}\nNicola Rennie\n\n\nColor palette generators\nViz Palette\nElijah Meeks & Susie Lu\nData Color Picker\nLearn UI Design"
+  },
+  {
+    "objectID": "graphics-inspiration.html#style",
+    "href": "graphics-inspiration.html#style",
+    "title": "Inspiration",
+    "section": "Style",
+    "text": "Style\nThe Urban Institute “chart parts” is the best starting point to build HDA’s own chart setup."
   },
   {
     "objectID": "graphics-setup.html",
@@ -75,33 +159,5 @@
     "title": "Setup",
     "section": "How to use",
     "text": "How to use\n…"
-  },
-  {
-    "objectID": "graphics-inspiration.html",
-    "href": "graphics-inspiration.html",
-    "title": "Inspiration",
-    "section": "",
-    "text": "Urban Institute Graphics Guide\n\nCustom-built urbnthemes package\nGuide for each kind of graphic\nFollows their graphic style guide\nFunctions address saving/output options\n\nBBC Visual and Data Journalism cookbook for R graphics\n\nCustom-built bbplot package\nGuide for each kind of graphic\nFunctions address saving/output options"
-  },
-  {
-    "objectID": "graphics-inspiration.html#style",
-    "href": "graphics-inspiration.html#style",
-    "title": "Inspiration",
-    "section": "Style",
-    "text": "Style\nThe Urban Institute\nhttps://urbaninstitute.github.io/graphics-styleguide/ https://urbaninstitute.github.io/graphics-styleguide/img/chart-parts-02.png"
-  },
-  {
-    "objectID": "colors-hfv.html",
-    "href": "colors-hfv.html",
-    "title": "HFV Colors",
-    "section": "",
-    "text": "library(scales)\n\nWarning: package 'scales' was built under R version 4.2.1\n\nlibrary(chroma)\n\n\nAttaching package: 'chroma'\n\n\nThe following objects are masked from 'package:scales':\n\n    alpha, show_col\n\n\nThe following objects are masked from 'package:grDevices':\n\n    hcl, hsv, rgb\n\nhfv_pal <- c(\n  \"#011e41\", # Shadow\n  \"#40c0c0\", # Sky\n  \"#8b85ca\", # Lilac\n  \"#259591\", # Grass\n  \"#b1005f\", # Berry\n  \"#e0592a\"  # Desert\n  )\n\nscales::show_col(hfv_pal, borders = \"#ffffff\", cex_label = 0.8, ncol = 3)\n\n\n\n\n\nchroma::show_col(interp_colors(12, colors = c(\"#ccd2d9\", \"#011e41\"), interp = \"bezier\"))"
-  },
-  {
-    "objectID": "colors-hda.html",
-    "href": "colors-hda.html",
-    "title": "HDA Colors",
-    "section": "",
-    "text": "library(scales)\n\nWarning: package 'scales' was built under R version 4.2.1\n\nlibrary(chroma)\n\n\nAttaching package: 'chroma'\n\n\nThe following objects are masked from 'package:scales':\n\n    alpha, show_col\n\n\nThe following objects are masked from 'package:grDevices':\n\n    hcl, hsv, rgb\n\npal <- c(\"#445ca9\",\n         \"#8baeaa\",\n         \"#e9ab3f\",\n         \"#e76f52\")\n\nscales::show_col(pal, borders = \"#ffffff\", ncol = 4)"
   }
 ]

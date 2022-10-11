@@ -2,22 +2,55 @@
 title: "Inspiration"
 ---
 
+## Ideal requirements
+
+A custom solution for HDA's graphic production needs should preferably include the following:
+
+* Ability to manage and use at least two brand palettes for data visualization
+    + [HDA palette](colors-hda.qmd)
+    + [HFV palette](colors-hfv.qmd)
+* Pre-made color scales
+    + Categorical (up to 6 variables)
+    + Sequential (several color options)
+    + Diverging (at least 2 options)
+* Standard chart layout(s) using pre-defined `theme()` options in `ggplot2`
+    + Label formatting (title, subtitle, axes, caption)
+    + Layout formatting (axis lines, axis labels, gridlines, ticks, legends, etc.)
+* Ability to load and use custom fonts via Google Fonts
+    + [HDA fonts](fonts-hda.qmd)
+    + [HFV fonts](fonts-hfv.qmd)
+* Pre-assigned variable colors (example variable lists below)
+
+| Race/ethnicity      | Tenure    | Housing type    |
+|---------------------|-----------|-----------------|
+| White, non-Hispanic | Homeowner | Single-family   |
+| Black               | Renter    | Duplex          |
+| Hispanic or Latino  |           | 3-4 units       |
+| Asian               |           | 5 or more units |
+| Multiracial         |           |                 |
+| Another race        |           |                 |
+
+* Standard export settings that produce legible graphics for Quarto/RMarkdown outputs
+    + HTML (book and website options)
+    + HTML (`revealjs` presentations)^[Because these HTML slides are rendered/displayed at a higher resolution (full screen) than the HTML book and website options, the default base size for text and other elements can be too small to read when presenting on a projection screen in-person.]
+    + PDF (whichever PDF render engine is best)
+
 ## Examples
 
 ### Complete packages
 
 [Urban Institute Graphics Guide](https://urbaninstitute.github.io/r-at-urban/graphics-guide.html)
 
-- Custom-built `urbnthemes` [package](https://github.com/UrbanInstitute/urbnthemes)
-- [Guide](https://urbaninstitute.github.io/r-at-urban/graphics-guide.html) for each kind of graphic
-- Follows their [graphic style guide](https://urbaninstitute.github.io/graphics-styleguide/)
-- Functions address saving/output options
+* Custom-built `urbnthemes` [package](https://github.com/UrbanInstitute/urbnthemes)
+* [Guide](https://urbaninstitute.github.io/r-at-urban/graphics-guide.html) for each kind of graphic
+* Follows their [graphic style guide](https://urbaninstitute.github.io/graphics-styleguide/)
+* Functions address saving/output options
 
 [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
 
-- Custom-built `bbplot` [package](https://github.com/bbc/bbplot)
-- Guide for each kind of graphic
-- Functions address saving/output options
+* Custom-built `bbplot` [package](https://github.com/bbc/bbplot)
+* Guide for each kind of graphic
+* Functions address saving/output options
 
 ## Helpful guides
 
@@ -41,14 +74,14 @@ title: "Inspiration"
 
 ### Color palette generators
 
-https://www.learnui.design/tools/data-color-picker.html
+[Viz Palette](https://projects.susielu.com/viz-palette)  
+*Elijah Meeks & Susie Lu*
 
-https://projects.susielu.com/viz-palette
+[Data Color Picker](https://www.learnui.design/tools/data-color-picker.html)  
+*Learn UI Design*
 
 ## Style
 
-The Urban Institute
+The Urban Institute "chart parts" is the best starting point to build HDA's own chart setup.
 
-https://urbaninstitute.github.io/graphics-styleguide/
-https://urbaninstitute.github.io/graphics-styleguide/img/chart-parts-02.png
-
+![](https://urbaninstitute.github.io/graphics-styleguide/img/chart-parts-02.png)

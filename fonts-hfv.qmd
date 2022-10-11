@@ -1,3 +1,17 @@
 ---
 title: "HFV Fonts"
 ---
+
+HousingForward Virginia uses two fonts: Poppins SemiBold and Open Sans Regular. Both are available through Google Fonts.
+
+## Headings
+
+For all headings and subheadings:
+
+[Poppins SemiBold](https://fonts.google.com/specimen/Poppins)
+
+## Body
+
+For body text and all other uses:
+
+[Open Sans Regular](https://fonts.google.com/specimen/Open+Sans)

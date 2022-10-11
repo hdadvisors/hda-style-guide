@@ -1,0 +1,16 @@
+{
+  "hash": "dbbdd7302440e4368a613bd69ba146f8",
+  "result": {
+    "markdown": "---\ntitle: \"HDA Colors\"\n---\n\n\n## Primary palette\n\nHDAdvisors uses a four-color palette.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(scales)\nlibrary(chroma)\n\npal <- c(\n  \"#445ca9\", # Blue\n  \"#8baeaa\", # Green\n  \"#e9ab3f\", # Yellow\n  \"#e76f52\"  # Coral\n  )\n\nscales::show_col(pal, borders = \"#ffffff\")\n```\n\n::: {.cell-output-display}\n![](colors-hda_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n::: {.callout-note}\n\nWe've asked our marketing consultant to provide two additional colors for this palette. This would allow for categorical color schemes for data with more than four variables.\n\n:::\n\n## Categorical\n\n...\n\n## Sequential\n\n...\n\n## Diverging\n\n...",
+    "supporting": [
+      "colors-hda_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

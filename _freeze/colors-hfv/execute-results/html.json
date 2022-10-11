@@ -1,0 +1,16 @@
+{
+  "hash": "30fd531ec5cd6387ccf6f1d224b548d0",
+  "result": {
+    "markdown": "---\ntitle: \"HFV Colors\"\n---\n\n\n## Primary palette\n\nHousingForward Virginia uses a six-color palette.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(scales)\nlibrary(chroma)\n\nhfv_pal <- c(\n  \"#011e41\", # Shadow\n  \"#40c0c0\", # Sky\n  \"#8b85ca\", # Lilac\n  \"#259591\", # Grass\n  \"#b1005f\", # Berry\n  \"#e0592a\"  # Desert\n  )\n\nscales::show_col(hfv_pal, borders = \"#ffffff\", cex_label = 0.8)\n```\n\n::: {.cell-output-display}\n![](colors-hfv_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n## Categorical\n\n...\n\n## Sequential\n\nSingle-color sequential gradient using Shadow (`#011e41`).\n\n\n::: {.cell}\n\n```{.r .cell-code}\nchroma::show_col(interp_colors(12, colors = c(\"#ccd2d9\", \"#011e41\"), interp = \"bezier\"))\n```\n\n::: {.cell-output-display}\n![](colors-hfv_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n## Diverging\n\n...\n",
+    "supporting": [
+      "colors-hfv_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

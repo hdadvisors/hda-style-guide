@@ -1,3 +1,17 @@
 ---
 title: "HDA Fonts"
 ---
+
+HDAdvisors uses two fonts: Roboto Slab and Lato Regular. Both are available through Google Fonts.
+
+## Headings
+
+For all headings and subheadings:
+
+[Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab)
+
+## Body
+
+For body text and all other uses:
+
+[Lato Regular](https://fonts.google.com/specimen/Lato)
